@@ -18,19 +18,23 @@ public class LoginPage {
     private WebElement loginInput;
     @FindBy(name = "password")
     private WebElement passwordInput;
-    @FindBy(id = "submit-login")
+    @FindBy(xpath = "//a[@title='Log in to your customer account']")
     private WebElement signInButton;
-    @FindBy(xpath = "//a[@class='account']")
+    @FindBy(id = "//a[@class='account']")
     private WebElement userName;
+    @FindBy(id = "submit-login")
+    private WebElement submit;
 
     public void loginAs(String email, String password) {
+        signInButton.click();
+
         loginInput.clear();
         loginInput.sendKeys(email);
 
         passwordInput.clear();
         passwordInput.sendKeys(password);
 
-        signInButton.click();
+        submit.click();
     }
 
     public String getLoggedUsername() {
