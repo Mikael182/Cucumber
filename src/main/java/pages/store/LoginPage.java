@@ -37,6 +37,10 @@ public class LoginPage {
         submit.click();
     }
 
+    public void goToMainPage() {
+        driver.get("https://mystore-testlab.coderslab.pl.");
+    }
+
     public String getLoggedUsername() {
         return userName.getText();
     }
