@@ -45,7 +45,7 @@ public class OrderCreationDefinitionSteps {
     public void check_if_order_is_created_and_take_screenshot() throws IOException {
         ConfirmOrder confirmOrder = new ConfirmOrder(driver);
         confirmOrder.screenShot();
-        Assert.assertEquals("Your order is confirmed",confirmOrder.getPageText());
+        Assert.assertEquals("\uE876YOUR ORDER IS CONFIRMED",confirmOrder.getPageText());
     }
     @Then("test is finished")
     public void test_is_finished() {

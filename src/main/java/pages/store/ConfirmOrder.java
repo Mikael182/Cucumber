@@ -48,7 +48,7 @@ public class ConfirmOrder {
 
     }
     public String getPageText() {
-        WebElement pageText = driver.findElement(By.cssSelector("i.material-icons"));
+        WebElement pageText = driver.findElement(By.xpath("//section[@id='content-hook_order_confirmation']/div/div/div/h3"));
         return pageText.getText();
     }
 }
