@@ -55,4 +55,8 @@ public class NewAddressPage {
         WebElement checkContainer = driver.findElement(By.xpath("//article[@data-alert='success']"));
         return checkContainer.getText();
     }
+    public String getAddressData(){
+        WebElement addressData = driver.findElement(By.id("wrapper"));
+        return addressData.getText();
+    }
 }

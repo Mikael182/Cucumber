@@ -23,7 +23,7 @@ public class StoreAddressStepsDefinition {
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         driver.manage().window().maximize();
-        driver.get("https://mystore-testlab.coderslab.pl.");
+        driver.get("https://mystore-testlab.coderslab.pl");
     }
     @When("User go to loginPage and provide {} and {}")
     public void user_go_to_login_page_and_provide_michal01_com_pl_and_michal01(String email,String password) {
@@ -38,10 +38,16 @@ public class StoreAddressStepsDefinition {
         NewAddressPage newAddressPage = new NewAddressPage(driver);
         newAddressPage.newAddressData(alias,firstname,lastname,address,city,postcode);
     }
-    @Then("check if address is created")
-    public void check_if_address_is_created() {
+    @Then("check if address is created {}, {}, {}, {}, {}, {}")
+    public void check_if_address_is_created(String alias,String firstname,String lastname,String address,String city,String postcode) {
         NewAddressPage newAddressPage = new NewAddressPage(driver);
         Assert.assertEquals("Address successfully added!",newAddressPage.checkAddressCreation());
+        Assert.assertTrue(newAddressPage.getAddressData().contains(alias));
+        Assert.assertTrue(newAddressPage.getAddressData().contains(firstname));
+        Assert.assertTrue(newAddressPage.getAddressData().contains(lastname));
+        Assert.assertTrue(newAddressPage.getAddressData().contains(address));
+        Assert.assertTrue(newAddressPage.getAddressData().contains(city));
+        Assert.assertTrue(newAddressPage.getAddressData().contains(postcode));
     }
     @And("end test")
     public void end_test() {
