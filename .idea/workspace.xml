@@ -4,17 +4,67 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e1d00b8-2db2-4894-9f0a-91203b0150f4" name="Changes" comment="Exam test complite">
+    <list default="true" id="0e1d00b8-2db2-4894-9f0a-91203b0150f4" name="Changes" comment="Exam test version 2">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/hotelResults.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/hotelResults.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/result.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/result.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/report/storeResults.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/storeResults.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/store/NewAddressPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/store/NewAddressPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/features/store/createAddressStore.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/store/createAddressStore.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/examTasks/StoreAddressCreateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/examTasks/StoreAddressCreateTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/examTasks/StoreAddressStepsDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/examTasks/StoreAddressStepsDefinition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/features/store/createAddressStore.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/features/store/createAddressStore.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/store/NewAddressPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/store/NewAddressPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/duckduckgo/SearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/duckduckgo/SearchPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/duckduckgo/SearchResultPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/duckduckgo/SearchResultPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/hotel/AddressConfirmPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/hotel/AddressConfirmPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/hotel/CreateAddress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/hotel/CreateAddress.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/hotel/HotelAccountPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/hotel/HotelAccountPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/hotel/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/hotel/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/hotel/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/hotel/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/hotel/MyAccountPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/hotel/MyAccountPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/hotel/OrderConfirmationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/hotel/OrderConfirmationPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/hotel/OrderSummaryPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/hotel/OrderSummaryPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/hotel/QuickOrderPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/hotel/QuickOrderPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/hotel/SearchResultsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/hotel/SearchResultsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/hotel/UserRegisterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/hotel/UserRegisterPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/store/ConfirmOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/store/ConfirmOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/store/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/store/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/store/MyAccountPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/store/MyAccountPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/store/NewAddressPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/store/NewAddressPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/store/OrderPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/store/OrderPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/drivers/chromedriver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cucomber/AddressCreateSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucomber/AddressCreateSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hotel/SearchHotelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hotel/SearchHotelTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/drivers/chromedriver" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/drivers/chromedriver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/duckduckgo/SearchPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/duckduckgo/SearchResultPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/hotel/AddressConfirmPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/hotel/CreateAddress.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/hotel/HotelAccountPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/hotel/LoginPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/hotel/MainPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/hotel/MyAccountPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/hotel/OrderConfirmationPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/hotel/OrderSummaryPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/hotel/QuickOrderPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/hotel/SearchResultsPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/hotel/UserRegisterPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/store/ConfirmOrder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/store/LoginPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/store/MyAccountPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/store/NewAddressPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/store/OrderPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/cucomber/AddressCreateSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/cucomber/AddressCreateSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/cucomber/AddressCreateTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/cucomber/AddressCreateTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/cucomber/DuckDuckGoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/cucomber/DuckDuckGoTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/cucomber/HotelRegistrationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/cucomber/HotelRegistrationTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/cucomber/HotelStepDefinition.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/cucomber/HotelStepDefinition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/cucomber/StepDefs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/cucomber/StepDefs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/examTasks/OrderCreationDefinitionSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/examTasks/OrderCreationDefinitionSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/examTasks/OrderCreationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/examTasks/OrderCreationTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/examTasks/StoreAddressCreateTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/examTasks/StoreAddressCreateTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/examTasks/StoreAddressStepsDefinition.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/examTasks/StoreAddressStepsDefinition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/hotel/SearchHotelTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/hotel/SearchHotelTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/hotel/SignupTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/hotel/SignupTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/store/LoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/store/LoginTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,47 +101,107 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;/Users/michalmalolepszy/Desktop/CodersLabGit/Cucumber/src/test/java&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/michalmalolepszy/Desktop/CodersLabGit/Cucumber&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.StoreAddressCreateTest">
-    <configuration name="OrderCreationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.SearchHotelTest.shouldSearchRoom">
+    <configuration name="Scenario: New address is created" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/store/createAddressStore.feature" />
+      <option name="GLUE" value="examTasks" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="ONL_TEA_W_27_Dzien_5_-_Wzorzec_Page_Object_Pattern" />
+      <option name="NAME_FILTER" value="^New address is created$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^New address is created$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: New address is created" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="examTasks.*" />
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="examTasks" />
-      <option name="MAIN_CLASS_NAME" value="examTasks.OrderCreationTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: user create new address" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/hotel/createAddress.feature" />
+      <option name="GLUE" value="cucomber" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="ONL_TEA_W_27_Dzien_5_-_Wzorzec_Page_Object_Pattern" />
+      <option name="NAME_FILTER" value="^user create new address$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^user create new address$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: user create new address" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ONL_TEA_W_27_Dzien_5_-_Wzorzec_Page_Object_Pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="store.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="store" />
+      <option name="MAIN_CLASS_NAME" value="store.LoginTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StoreAddressCreateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SearchHotelTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ONL_TEA_W_27_Dzien_5_-_Wzorzec_Page_Object_Pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="examTasks.*" />
+          <option name="PATTERN" value="hotel.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="examTasks" />
-      <option name="MAIN_CLASS_NAME" value="examTasks.StoreAddressCreateTest" />
+      <option name="PACKAGE_NAME" value="hotel" />
+      <option name="MAIN_CLASS_NAME" value="hotel.SearchHotelTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchHotelTest.shouldSearchRoom" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ONL_TEA_W_27_Dzien_5_-_Wzorzec_Page_Object_Pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hotel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hotel" />
+      <option name="MAIN_CLASS_NAME" value="hotel.SearchHotelTest" />
+      <option name="METHOD_NAME" value="shouldSearchRoom" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StoreAddressCreateTest" />
-        <item itemvalue="JUnit.OrderCreationTest" />
+        <item itemvalue="JUnit.SearchHotelTest.shouldSearchRoom" />
+        <item itemvalue="JUnit.SearchHotelTest" />
+        <item itemvalue="JUnit.LoginTest" />
+        <item itemvalue="Cucumber Java.Scenario: New address is created" />
+        <item itemvalue="Cucumber Java.Scenario: user create new address" />
       </list>
     </recent_temporary>
   </component>
@@ -139,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665875737537</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Exam test version 2">
+      <created>1666196728302</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1666196728303</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -158,6 +275,7 @@
     <MESSAGE value="Certification tests" />
     <MESSAGE value="Certification tests version2" />
     <MESSAGE value="Exam test complite" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exam test complite" />
+    <MESSAGE value="Exam test version 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exam test version 2" />
   </component>
 </project>

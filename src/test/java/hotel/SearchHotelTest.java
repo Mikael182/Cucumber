@@ -18,23 +18,28 @@ public class SearchHotelTest {
 
     @Before
     public void setUp() {
+        String baseUrl = "https://hotel-testlab.coderslab.pl/en/";
         System.setProperty("webdriver.chrome.driver", "src/main/resources/drivers/chromedriver");
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         driver.manage().window().maximize();
-        driver.get("https://hotel-testlab.coderslab.pl/en/");
-
+        driver.get(baseUrl);
         mainPage = new MainPage(driver);
         mainPage.goToLoginPage();
         LoginPage loginPage = new LoginPage(driver);
         loginPage.loginAs("test_user_pop@test.pl", "testuser");
         MyAccountPage myAccountPage = new MyAccountPage(driver);
         myAccountPage.goToMainPage();
+        Assert.assertTrue(baseUrl.contains("https://hotel-testlab.coderslab.pl/en/"));
     }
 
     @Test
     public void shouldSearchRoom() {
-        mainPage.searchHotel("Warsaw", "01-01-2023", "10-01-2023");
+        String location = "Poznań";
+        String checkIn = "04-03-2023";
+        String checkOut = "10-03-2023";
+
+        mainPage.searchHotel(location, checkIn, checkOut);
         searchResultsPage = new SearchResultsPage(driver);
 
         Assert.assertTrue(searchResultsPage.getRoomsNumber() > 0);
